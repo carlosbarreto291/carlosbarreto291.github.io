@@ -1,0 +1,248 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+body hr{
+    margin-bottom: 30px;
+}
+header {
+    background-color: rgb(58, 57, 57);
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+header #nome-site #logo img{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+nav a{
+    width: 50px;
+    color: white;
+    font-size: 17px;
+    padding: 0px 10px;
+    margin: 0px 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease; 
+}
+nav a:hover{
+    background-color: rgb(247, 247, 255);
+    color:rgb(58, 57, 57) ; 
+    transform: scale(1.1);
+}
+/*onde termina o header*/
+main h1{
+    text-align: center ;
+    margin: 20px 0px;
+}
+/*onde começa o regras*/
+
+#conteiner2{
+    text-align: center;
+}
+#conteiner2 h3{
+    margin-top: 30px;
+}
+#conteiner2 #primeiras-posicoes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#conteiner2 #segunda-posicao{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.jogador{
+    margin: 0px 100px;
+}
+.jogador h2{
+    margin: 0px 150px;
+}
+.jogador p{
+    width: 450px;
+}
+#conteiner3 #sregra{
+    text-align: center;
+}
+#conteiner3 #cartoes{
+    display: flex;
+    justify-content: center;
+}
+#cartoes .cartao{
+    text-align: center;
+    margin: 0px 100px;
+    width: 400px;
+}
+#conteiner3 #cartoes .cartao .imgcartao{
+    width: 200px;
+}
+#conteiner4 #terceiraregra{
+    text-align: center;
+}
+#conteiner4 #tregra{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;  
+}
+#conteiner4 #tregra #texto {
+    margin-left: 50px;
+    line-height: 30px;
+    width: 500px;
+}
+
+/*onde termina o regras*/
+/*onde começaa as curiosidades*/
+#copamundo h2{
+    text-align: center;
+}
+.paragrafo{
+    display: flex;
+}
+.paragrafo h2{
+ text-align: center;
+ margin: 30px 0px;
+}
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.paragrafo  .imagem img{
+    width: 650px;
+    height: 400px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.paragrafo .texto{
+    margin-left: 50px;
+    line-height: 40px;
+    width: 600px;
+    margin: 0px 35px;
+    text-align: center;  
+}
+
+#bals h2{
+    text-align: center ;
+}
+#bolas{
+    display: flex;
+    justify-content: center;
+}
+#bolas .bola{
+   margin:0px  80px ;
+}
+#bolas .bola p{
+    width: 150px;
+}
+#bolas .bola1{
+    width: 150px;
+    height: 150px;
+}
+
+#chuteiras{
+    display: flex;
+    justify-content: center;
+}
+#chuteiras .chuteira{
+    margin: 0px 80px;
+}
+#chuteiras .chuteira p{
+    width: 150px;
+}
+#chuteiras .chuteira1{
+    width: 150px;
+    height: 150px;
+}
+
+#primeirocamp h2{
+    text-align: center;
+}
+
+
+#titulotrof h2{
+    text-align: center;
+}
+#titulotrof #curiosidades {
+    display: flex;
+    justify-content: center;
+}
+#titulotrof #curiosidades  .trofeis{
+    margin: 0px 80px;
+}
+#titulotrof #curiosidades  .trofeis img{
+    width: 140px;
+    height: 250px;
+}
+#titulotrof #curiosidades .trofeis p{
+    width: 150px;
+}
+
+/*onde termina as curiosidades*/
+/*onde começa o index  */
+#mundial h2{
+    text-align: center;
+}
+.futebol{
+    display: flex;
+}
+.futebol h2{
+ text-align: center;
+ margin: 30px 0px;
+}
+.futebol{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.futebol  .imagem img{
+    width: 650px;
+    height: 460px;
+    margin: 10px 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.futebol .texto{
+    margin-left: 50px;
+    line-height: 30px;
+    width: 650px;
+    margin: 0px 35px;
+    text-align: center;
+
+}
+#textos{
+    display: flex;
+    justify-content: center;
+}
+#letras h3{
+    text-align: center;
+    margin: 130px 30px;
+}
+#palavras{
+    display: flex;
+    justify-content: center;
+}
+#palavras p{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 30px 0px;
+    line-height: 30px;
+    width: 600px;
+
+}
+
+/*onde termina o index*/
+/*onde começa o footer*/
+#meufooter{
+    background-color: rgb(58, 57, 57) ; 
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    margin-top: 30px;
+}
+#meufooter h4{
+    padding-top: 15px;
+}
